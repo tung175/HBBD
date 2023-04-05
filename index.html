@@ -11,13 +11,14 @@
     </head>
     <body class="page__main">
         <!-- 3. Phần nhạc -->
-        <audio src="./music/music.mp3" autoplay ></audio>
+        <audio id="player" autoplay loop>
+            <source src="./music/home.mp3" type="audio/mp3" />
+        </audio>
         <!-- <audio id="player" autoplay loop>
             <source src="./music/music.mp3" type="audio/mp3" />
         </audio> -->
 
         <div class="buttons">
-            
             <!-- Chữ ở menu bạn có thể sửa lại theo ý của bạn -->
             <!-- <a href="index.html" class="btn btn-bir">Sinh nhật</a> -->
             <a href="timeline.html" class="btn btn-timeline">Dòng thời gian</a>
@@ -25,7 +26,7 @@
         </div>
 
         <!-- 2. Phần ảnh của người bạn mún chúc -->
-        <img src="./img/deptraibodoiqua.png" alt="" class="cover" />
+        <img src="./img/avatar.jpg" alt="" class="cover" />
 
         
     </body>
